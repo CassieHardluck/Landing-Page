@@ -1,0 +1,31 @@
+:root {
+  --drkBackground-color: #1f2937;
+  --mainText-color: #f9faf8;
+  --secondText-color: #e7e5eb;
+  --btnBackground-color: #3882f6;
+  --infoText-color: #1f2937;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+
+}
