@@ -13,17 +13,35 @@
   box-sizing: border-box;
 }
 
-#head {
-  display: flex;
+html {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
 }
 
-#logo-img {
-  width: 50px;
-  height: 50px;
+
+.head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid  darkblue;
+  height: 150px;
 }
 
-#nav-list {
+.logo-img {
+  /* padding-left: 40px; */
+  width: 150px;
+  height: 150px;
+}
+
+.head-spacer {
+  width: 300px;
+}
+
+.nav-list {
+  /* padding-right: 40px; */
+  gap: 20px;
   display: flex;
+  justify-content: space-between;
 }
 
 .nav-item {
@@ -31,6 +49,12 @@ list-style-type: none;
 }
 
 .nav-link {
+  font-size: 1.4rem;
   text-decoration: none;
+}
+
+.info-img {
+  width: 100px;
+  height: 100px;
 }
 
