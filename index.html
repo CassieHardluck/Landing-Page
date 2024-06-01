@@ -3,28 +3,63 @@
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
+      <title>Landing Page - theodinproject</title>
       <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-      <header class="head">
+
+      <!-- header -->
+      <header id="head">
+
+        <!-- logo -->
         <div class="img-div">
-          <img class="logo-img" src="./images/star-logo.svg" alt="">
+          <img class="logo-img" src="./images/star-logo.svg" alt="logo">
         </div>
+
+        <!-- spacer to help my flex items fall into place right -->
         <div class="head-spacer"></div>
-        <ul class="nav-list">
-          <li class="nav-item"><a class="nav-link" href="#hero-main">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#hero-second">Information</a></li>
-          <li class="nav-item"><a class="nav-link" href="#hero-third">Contact</a></li>
-        </ul>
+
+        <!-- navigation -->
+        <nav class="navbar">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="#hero">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#info">
+                Information
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">
+                Sign Up
+              </a>
+            </li>
+          </ul>
+        </nav>
+
       </header>
+
+      <!-- main  -->
       <main class="main">
-        <section id="hero-main">
-          <div></div>
-          <div></div>
+
+        <!-- hero section -->
+        <section id="hero">
+          <div class="hero-text">
+            <h1 class="main-text">This website is awesome.</h1>
+            <p class="secondary-text">This website has some subtext that does here under the main text. Its a smaller font and the color is a lighter contrast.</p>
+            <button class="sign-up">Sign Up</button>
+          </div>
+          <div class="hero-img-div">
+            <img class="hero-img" src="images/flowers-2.jpeg" alt="eye monster">
+          </div>
         </section>
-        <section id="hero-second">
-          <p class="hero-second-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+        <!-- information section -->
+        <section id="info">
+          <p class="info-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
           <div class="flex-container">
             <div class="info-img-div">
               <img class="info-img" src="./images/with-clouds.jpg" alt="">
@@ -46,11 +81,10 @@
         </section>
         <section id="quote">
           <hr>
-          <blockquote class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quos iste ea nam debitis? Quo, ullam voluptatem cupiditate sequi corporis eos, dolor nam asperiores cum qui repellat sed. Omnis possimus ad nisi ut quaerat quas!</blockquote>
-          <cite class="quote-text">Lorem, ipsum dolor.</cite>
+          <blockquote class="quote-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quos iste ea nam debitis? Quo, ullam voluptatem cupiditate sequi corporis eos, dolor nam asperiores cum qui repellat sed. Omnis possimus ad nisi ut quaerat quas! <br> <span class="quote-author">~Lorem, ipsum dolor.</span></blockquote>
           <hr>
         </section>
-        <section id="hero-third">
+        <section id="contact">
           <div class="info">
             <p></p>
           </div>
