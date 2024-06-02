@@ -46,6 +46,7 @@ hr {
   align-items: center;
   height: 75px;
   padding: 40px;
+  height: 300px;
 }
 
 #hero {
@@ -62,10 +63,10 @@ hr {
   height: 460px;
 }
 
-#quote {
-  height: 300px;  
-  }
-  
+/* #quote { */
+/*    */
+/* } */
+
 .logo-img {
   width: 70px;
   height: 70px;
@@ -175,3 +176,13 @@ hr {
   margin-left: 20px;
   text-align: right;
 }
+
+
+
+/* #contact {
+
+} */
+
+/* #foot {
+
+} */

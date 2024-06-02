@@ -62,10 +62,6 @@ hr {
   height: 460px;
 }
 
-#quote {
-  height: 300px;  
-  }
-  
 .logo-img {
   width: 70px;
   height: 70px;
@@ -98,12 +94,13 @@ hr {
   justify-content: center;
   align-items: center;
   padding: 20px;
+  /* border: 2px dashed darkred; */
 }
-
 .main-text {
   color: var(--main-color);
   font-size: 38px;
-  padding: auto 0;
+  padding: auto o;
+  /* margin: 10px; */
 }
 
 .secondary-text {
@@ -115,6 +112,7 @@ hr {
 }
 
 .hero-img-div {
+  /* border: 2px dashed darkred; */
   padding: 20px;
 }
 
@@ -158,6 +156,9 @@ hr {
   text-align: center;
 }
 
+#quote {
+  height: 300px;
+}
 
 .quote-text {
   margin: 38px;
@@ -175,3 +176,13 @@ hr {
   margin-left: 20px;
   text-align: right;
 }
+
+
+
+/* #contact {
+
+} */
+
+/* #foot {
+
+} */
